@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CFD8DC"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/isWorking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forward messages"></CheckBox>
+
+    <EditText
+        android:id="@+id/phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the received phone number"
+        android:minHeight="50dp"
+        android:textColorHint="#455A64">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/tokenBot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the bot token"
+        android:minHeight="50dp"
+        android:textColorHint="#455A64">
+    </EditText>
+
+    <EditText
+        android:id="@+id/tgID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your telegram ID"
+        android:minHeight="50dp"
+        android:textColorHint="#455A64">
+    </EditText>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:text="Save and Test">
+
+    </Button>
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:text="log"
+        android:textSize="13sp">
+
+    </TextView>
+
+</LinearLayout>
